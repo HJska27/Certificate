@@ -3,14 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
     <title>Document</title>
 </head>
 <body>
     <section class="pagewrapper">
-        <section>
+        <section class="left">
+
+            <section class="certificate">
+                <span id="name"></span>
+                <span id="info"></span>
+            </section>
             
         </section>
+
+        <section class="right">
+             <form action="" id="myForm">
+                <input type="text" name="name" id="name" placeholder="Name">
+
+                <select name="type" id="type">
+                    <option value="A">A</option>
+                    <option value="A">B</option>
+                    <option value="A">C</option>
+                </select>
+                <input type="submit" value="Generate">
+
+             </form>
+        </section>
+
+
     </section>
-    
 </body>
 </html>
