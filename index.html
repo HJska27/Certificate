@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>certificate</title>
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
+    
 </head>
 <body>
     <div class="pagewrapper">
@@ -31,7 +31,7 @@
                     <option value="CSS">CSS</option>
                     <option value="JS">JS</option>
                 </select>
-                <input type="submit" value="Generate">
+                <input type="submit" value="Generate" onclick="update()">
                 <input type="button" value="Print" id="print">
                 <input type="button" value="altPrint" onclick="window.print()">
         
@@ -39,5 +39,9 @@
         </section>
 
     </div>    
+
+    <canvas id="myCanvas" width="500" height="500" style="border: 1px solid black;">hi</canvas>
+    <script src="index.js"></script>
+    <img class="hide" src="html.jpg"> 
 </body>
 </html>

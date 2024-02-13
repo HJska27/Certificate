@@ -37,3 +37,16 @@ body {
 .number4 {
     color: orange;
 }
+
+canvas {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    translate: 500px -800px;
+}
+
+.hide {
+    opacity: 0;
+}
+
