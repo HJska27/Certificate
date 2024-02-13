@@ -8,4 +8,32 @@ body {
 
 .pagewrapper {
     display: flex;
+    height: 100vh;
+}
+
+.left{
+    width: 75vw;
+    padding: 1em;
+}
+
+.right {
+    width: 25vw;
+    background-color: lightgray;
+    padding: 1em;
+}
+
+.number1 {
+    color: red;
+}
+
+.number2 {
+    color: blue
+}
+
+.number3 {
+    color: blueviolet;
+}
+
+.number4 {
+    color: orange;
 }
